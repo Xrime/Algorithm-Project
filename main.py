@@ -12,7 +12,7 @@ from merge_sort import merge_sort
 from quick_sort import quick_sort
 from selection_sort import selection_sort
 
-sizes = [100, 10000, 50000, 100000, 500000, 800000, 1000000]
+sizes = [500000, 800000, 1000000]
 algorithms = {
     "Bubble": bubble_sort,
     "Insertion": insertion_sort,
@@ -90,3 +90,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
